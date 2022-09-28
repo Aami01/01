@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+int a, b, c, n;
+printf("Input a, b and c as numbers:\n");
+scanf("%d %d %d", &a, &b, &c );
+n=0;
+if (a>0) n++;
+if (b>0) n++;
+if (c>0) n++;
+
+printf("there is %d positive number(s).", n);
+
+
+return 0;
+
+}
